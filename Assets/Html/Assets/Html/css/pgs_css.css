@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color: white;
+}
+div{
+    background-color: white;
+width: 550px;
+height: 350px;
+margin: auto;
+padding: 100px 100px;
+box-shadow: 3px 3px 5px rgba(0, 0,0, 0.473);
+}
+.titulo{
+    display: flex;
+justify-content: center; /* Centraliza horizontalmente */
+align-items: center; /* Centraliza verticalmente */
+height: 10vh; /* Ou outra altura desejada */
+}  
