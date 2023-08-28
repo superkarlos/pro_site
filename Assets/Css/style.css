@@ -2,7 +2,7 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 body{
-    background-color: rgb(52, 52, 53);
+    background-color: rgb(23, 23, 88);
     color: white;
 }
 main{
@@ -38,12 +38,19 @@ h1{
     height: 10vh; /* Ou outra altura desejada */
 }
 .botao-link {
-    display: inline-block;
+    display:flex;
     padding: 10px 20px; /* Ajuste o preenchimento conforme necessário */
     background-color: #f8f3f3; /* Cor de fundo do botão */
     color: #000000; /* Cor do texto do botão */
     text-decoration: none; /* Remova o sublinhado padrão */
-    border-radius: 5px; /* Cantos arredondados */
+    border-radius: 60vh; /* Cantos arredondados */
+   
+
+    
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente, opcional */
+    height: 2vh; /* Defina uma altura para a centralização vertical, opcional */
+    
 }
 
 /* Estilos de hover (quando o mouse passa por cima) */
@@ -54,5 +61,19 @@ h1{
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
-    height: 10vh; /* Ou outra altura desejada */
+    height: 50vh; /* Ou outra altura desejada */
    }
+.texto_centro{
+color: #f4f4f4;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+   }
+.img_jv{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 31vh; 
+}

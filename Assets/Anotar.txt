@@ -1,0 +1,13 @@
+<title> tituulo ,busca ,palavra chaves</title>
+
+<nav> define um conjunde  de llinks de navegacao </nav>
+  <ul>
+
+
+<article>
+    <section>
+      <p>
+      </p>
+    </section>
+
+</article>
